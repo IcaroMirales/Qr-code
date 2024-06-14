@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Daesang space';
+    src: url('../fonts/DAESANG-SPACE-DEMO.ttf'),
+    url('../fonts/DAESANG-SPACE-DEMO.otf');
+}
+
+@font-face {
+    font-family: 'Bidline';
+    src: url('../fonts/Bidline.otf'),
+    url('../fonts/Bidline.ttf');
+}
+
+.container-qrcode p {
+    font-family: 'Daesang space';
+    font-size: 11px;
+    text-align: center;
+    width: 230px;
+    margin: 50px auto 0;
+    font-weight: bold;
+
+}
+
+.container-qrcode {
+    position: absolute;
+    top: 28%;
+    left: 40%;
+    border-radius: 10px;
+    width: 280px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container-qrcode img {
+    border-radius: 10px;
+    width: 250px;
+    margin: 15px 0 0 15px;
+}
+
+.container-azul {
+    border-radius: 10px;
+    background-color: hsl(212, 45%, 89%);
+    height: 800px;
+    width: 90%;
+    margin: 110px auto 0;
+}
+
+.assinatura {
+    font-family: 'Bidline';
+    font-size: 25px;
+    position: absolute;
+    bottom: 140px;
+    right: 90px;
+    color: #000;
+}
