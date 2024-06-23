@@ -65,11 +65,11 @@ main {
 
 @media (max-width: 1024px) {
     .container-qrcode {
-        left: 380px;
+        left: 40%;
     }
 
     .container-azul {
-        margin: 85px auto 0;
+        margin: 10% auto 0;
     }
 }
 
@@ -83,11 +83,25 @@ main {
 @media (max-width: 375px) {
     .container-qrcode {
         left: 50px;
-        top: 200px;
+        top: 20%;
     }
 
     .assinatura {
-        bottom: 115px;
-        left: 200px;
+        bottom: 12%;
+        left: 60%;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-qrcode {
+        width: 72%;
+    }
+
+    .container-qrcode img {
+        width: 87%;
+    }
+
+    .assinatura {
+        left: 50%;
     }
 }
