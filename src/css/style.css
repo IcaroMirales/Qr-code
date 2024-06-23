@@ -79,3 +79,15 @@ main {
         left: 250px;
     }
 }
+
+@media (max-width: 375px) {
+    .container-qrcode {
+        left: 50px;
+        top: 200px;
+    }
+
+    .assinatura {
+        bottom: 115px;
+        left: 200px;
+    }
+}
