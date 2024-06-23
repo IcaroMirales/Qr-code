@@ -10,6 +10,11 @@
     url('../fonts/Bidline.ttf');
 }
 
+body {
+    background-color: #000000;
+    
+}
+
 .container-qrcode p {
     font-family: 'Daesang space';
     font-size: 11px;
@@ -52,3 +57,30 @@
     right: 90px;
     color: #000;
 }
+
+main {
+    min-width: 375px;
+    max-width: 1440px;
+}
+@media (max-width: 576px) {
+    .assinatura {
+        right: 30px;
+        bottom: 150px;
+    }
+
+    .container-azul {
+        margin: 80px auto 0;
+    }
+
+    .container-qrcode {
+        left: 50px;
+        top: 200px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .assinatura {
+        bottom: 160px;
+    }
+}
+
