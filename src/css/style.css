@@ -12,7 +12,6 @@
 
 body {
     background-color: #000000;
-    
 }
 
 .container-qrcode p {
@@ -24,22 +23,25 @@ body {
     font-weight: bold;
 
 }
-
-.container-qrcode {
+.container-qrcode  {
     position: absolute;
-    top: 22%;
-    left: 40%;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 10px;
     width: 280px;
     height: 450px;
     background-color: hsl(0, 0%, 100%);
 }
 
+
+
 .container-qrcode img {
     border-radius: 10px;
     width: 250px;
     margin: 15px 0 0 15px;
 }
+
 
 .container-azul {
     border-radius: 10px;
@@ -65,7 +67,11 @@ main {
 
 @media (max-width: 1024px) {
     .container-qrcode {
-        left: 40%;
+        left: 35%;
+        transform: translateX(-35%);
+        top: 50%;
+        transform: translateY(-50%);
+        
     }
 
     .container-azul {
@@ -76,13 +82,18 @@ main {
 
 @media (max-width: 768px) {
     .container-qrcode {
-        left: 25%;
+        top: 25%;
+        left: 50%;
+        transform: translateY(-25%);
+        transform: translateX(-50%);
     }
 }
 
 @media (max-width: 470px) {
     .container-qrcode {
-        left: 17%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20%;
     }
 
     .assinatura {
@@ -94,13 +105,14 @@ main {
 
 @media (max-width: 375px) {
     .container-qrcode {
-        left: 10%;
+        left: 50%;
+        transform: translateX(-50%);
         top: 20%;
     }
 
     .assinatura {
         bottom: 18%;
-        left: 60%;
+        left: 40%;
     }
 }
 
@@ -114,6 +126,10 @@ main {
     }
 
     .assinatura {
-        left: 50%;
+        left: 40%;
+    }
+
+    .container-qrcode p {
+        width: 80%;
     }
 }
