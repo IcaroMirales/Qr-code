@@ -27,7 +27,7 @@ body {
 
 .container-qrcode {
     position: absolute;
-    top: 28%;
+    top: 22%;
     left: 40%;
     border-radius: 10px;
     width: 280px;
@@ -46,15 +46,15 @@ body {
     background-color: hsl(212, 45%, 89%);
     height: 800px;
     width: 90%;
-    margin: 110px auto 0;
+    margin: 20px auto 0;
 }
 
 .assinatura {
     font-family: 'Bidline';
     font-size: 25px;
     position: absolute;
-    bottom: 140px;
-    right: 90px;
+    bottom: 20%;
+    right: 8%;
     color: #000;
 }
 
@@ -76,18 +76,30 @@ main {
 
 @media (max-width: 768px) {
     .container-qrcode {
-        left: 250px;
+        left: 25%;
     }
 }
 
+@media (max-width: 470px) {
+    .container-qrcode {
+        left: 17%;
+    }
+
+    .assinatura {
+        right: 15%;
+        bottom: 18%;
+    }
+}
+
+
 @media (max-width: 375px) {
     .container-qrcode {
-        left: 50px;
+        left: 10%;
         top: 20%;
     }
 
     .assinatura {
-        bottom: 12%;
+        bottom: 18%;
         left: 60%;
     }
 }
